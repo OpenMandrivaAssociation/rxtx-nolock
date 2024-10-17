@@ -12,7 +12,7 @@ Version:	%{upver}
 Release:	%mkrel 1
 License:	LGPLv2+
 Group:		System Environment/Libraries
-URL:		http://rxtx.qbang.org/
+URL:		https://rxtx.qbang.org/
 Source:		http://rxtx.qbang.org/pub/rxtx/rxtx-%{upver}%{uprel}.zip
 Patch0:		rxtx22-parche_utsrelease.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
