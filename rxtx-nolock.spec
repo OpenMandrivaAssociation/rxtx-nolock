@@ -17,6 +17,9 @@ Source:		http://rxtx.qbang.org/pub/rxtx/rxtx-%{upver}%{uprel}.zip
 Patch0:		rxtx22-parche_utsrelease.patch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 #BuildRequires:	java-devel >= 1:1.6.0
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	java-devel
 BuildRequires:	jpackage-utils
 BuildRequires:  libtool automake
