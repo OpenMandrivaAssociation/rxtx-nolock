@@ -9,7 +9,7 @@
 Summary:	Parallel and serial communication for the Java Development Toolkit without lockfiles
 Name:		rxtx-nolock
 Version:	%{upver}
-Release:	%mkrel 1
+Release:	2
 License:	LGPLv2+
 Group:		System Environment/Libraries
 URL:		https://rxtx.qbang.org/
